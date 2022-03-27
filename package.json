@@ -1,0 +1,26 @@
+{
+  "name": "courses-restaurant-manager-2.0",
+  "version": "1.0.0",
+  "description": "Demo application for managing orders in a restaurant. Application written in TypeScript (Node.js).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "dev": "npx ts-node src/index.ts",
+    "start": "npx node build/index.js",
+    "build": "npx tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukaszTyll/courses-restaurant-manager-2.0.git"
+  },
+  "author": "LukaszTyll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LukaszTyll/courses-restaurant-manager-2.0/issues"
+  },
+  "homepage": "https://github.com/LukaszTyll/courses-restaurant-manager-2.0#readme",
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
